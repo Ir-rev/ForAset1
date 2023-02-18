@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First fragment"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/button_kyzya"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="кот Кузя 4 года"
+        app:layout_constraintTop_toBottomOf="@+id/message"/>
+
+    <Button
+        android:id="@+id/button_semen"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="кот семен 1 год"
+        app:layout_constraintTop_toBottomOf="@+id/button_kyzya"/>
+
+    <Button
+        android:id="@+id/button_bobik"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="пес бобик 3 года"
+        app:layout_constraintTop_toBottomOf="@+id/button_semen"/>
+
+    <Button
+        android:id="@+id/button_bylka"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="пес булка 5 лет"
+        app:layout_constraintTop_toBottomOf="@+id/button_bobik"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
